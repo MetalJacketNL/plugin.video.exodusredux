@@ -1,5 +1,5 @@
 # Addon Name: Exodus Redux
-# Addon id: plugin.video.exodusredux
+# Addon id: plugin.video.exodusrefix
 # Addon Provider: I-A-C
 # Translators:
 # Translators:
@@ -223,23 +223,23 @@ msgid "[B]SETTINGS[/B] : Providers"
 msgstr ""
 
 msgctxt "#32048"
-msgid "[B]EXODUS REDUX[/B] : Downloads"
+msgid "[B]EXODUS REFIX[/B] : Downloads"
 msgstr ""
 
 msgctxt "#32049"
-msgid "[B]EXODUS REDUX[/B] : Viewtypes"
+msgid "[B]EXODUS REFIX[/B] : Viewtypes"
 msgstr ""
 
 msgctxt "#32050"
-msgid "[B]EXODUS REDUX[/B] : Clear providers..."
+msgid "[B]EXODUS REFIX[/B] : Clear providers..."
 msgstr ""
 
 msgctxt "#32051"
-msgid "[B]EXODUS REDUX[/B] : Clear metadata..."
+msgid "[B]EXODUS REFIX[/B] : Clear metadata..."
 msgstr ""
 
 msgctxt "#32052"
-msgid "[B]EXODUS REDUX[/B] : Clear cache..."
+msgid "[B]EXODUS REFIX[/B] : Clear cache..."
 msgstr ""
 
 msgctxt "#32053"
@@ -783,7 +783,7 @@ msgid "Are you sure?"
 msgstr ""
 
 msgctxt "#32556"
-msgid "[B]EXODUS REDUX[/B] : Library"
+msgid "[B]EXODUS REFIX[/B] : Library"
 msgstr ""
 
 msgctxt "#32557"
@@ -791,15 +791,15 @@ msgid "[B]LIBRARY[/B] : Settings"
 msgstr ""
 
 msgctxt "#32558"
-msgid "[B]EXODUS REDUX[/B] : Update library..."
+msgid "[B]EXODUS REFIX[/B] : Update library..."
 msgstr ""
 
 msgctxt "#32559"
-msgid "[B]EXODUS REDUX[/B] : Movie folder..."
+msgid "[B]EXODUS REFIX[/B] : Movie folder..."
 msgstr ""
 
 msgctxt "#32560"
-msgid "[B]EXODUS REDUX[/B] : TV folder..."
+msgid "[B]EXODUS REFIX[/B] : TV folder..."
 msgstr ""
 
 msgctxt "#32561"
@@ -931,7 +931,7 @@ msgid "New search..."
 msgstr ""
 
 msgctxt "#32604"
-msgid "[B]EXODUS REDUX[/B] : Clear search history..."
+msgid "[B]EXODUS REFIX[/B] : Clear search history..."
 msgstr ""
 
 msgctxt "#32605"
@@ -987,11 +987,11 @@ msgid "Movie Time"
 msgstr ""
 
 msgctxt "#32613"
-msgid "[B]EXODUS REDUX[/B] : Clear All Cache..."
+msgid "[B]EXODUS REFIX[/B] : Clear All Cache..."
 msgstr ""
 
 msgctxt "#32614"
-msgid "[B]EXODUS REDUX[/B] : Clear Meta Cache..."
+msgid "[B]EXODUS REFIX[/B] : Clear Meta Cache..."
 msgstr ""
 
 msgctxt "#32615"

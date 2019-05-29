@@ -20,7 +20,7 @@ from resources.lib.modules import log_utils
 from resources.lib.modules import control
 import threading
 
-addon_settings = xbmc.translatePath('special://userdata/addon_data/plugin.video.exodusredux/settings.xml')
+addon_settings = xbmc.translatePath('special://userdata/addon_data/plugin.video.exodusrefix/settings.xml')
 
 control.execute('RunPlugin(plugin://%s)' % control.get_plugin_url({'action': 'service'}))
 
@@ -34,24 +34,24 @@ if run2 == 'true':
 
 def syncTraktLibrary():
     control.execute(
-        'RunPlugin(plugin://%s)' % 'plugin.video.exodusredux/?action=tvshowsToLibrarySilent&url=traktcollection')
+        'RunPlugin(plugin://%s)' % 'plugin.video.exodusrefix/?action=tvshowsToLibrarySilent&url=traktcollection')
     control.execute(
-        'RunPlugin(plugin://%s)' % 'plugin.video.exodusredux/?action=moviesToLibrarySilent&url=traktcollection')
+        'RunPlugin(plugin://%s)' % 'plugin.video.exodusrefix/?action=moviesToLibrarySilent&url=traktcollection')
 
 try:
-    ModuleVersion = control.addon('script.module.exodusredux').getAddonInfo('version')
-    AddonVersion = control.addon('plugin.video.exodusredux').getAddonInfo('version')
+    ModuleVersion = control.addon('script.module.exodusrefix').getAddonInfo('version')
+    AddonVersion = control.addon('plugin.video.exodusrefix').getAddonInfo('version')
 
-    log_utils.log('######################### EXODUS REDUX ############################', log_utils.LOGNOTICE)
-    log_utils.log('####### CURRENT EXODUS REDUX VERSIONS REPORT ######################', log_utils.LOGNOTICE)
-    log_utils.log('### EXODUS REDUX PLUGIN VERSION: %s ###' % str(AddonVersion), log_utils.LOGNOTICE)
-    log_utils.log('### EXODUS REDUX SCRIPT VERSION: %s ###' % str(ModuleVersion), log_utils.LOGNOTICE)
-    #log_utils.log('### EXODUS REDUX REPOSITORY VERSION: %s ###' % str(RepoVersion), log_utils.LOGNOTICE)
+    log_utils.log('######################### EXODUS REFIX ############################', log_utils.LOGNOTICE)
+    log_utils.log('####### CURRENT EXODUS REFIX VERSIONS REPORT ######################', log_utils.LOGNOTICE)
+    log_utils.log('### EXODUS REFIX PLUGIN VERSION: %s ###' % str(AddonVersion), log_utils.LOGNOTICE)
+    log_utils.log('### EXODUS REFIX SCRIPT VERSION: %s ###' % str(ModuleVersion), log_utils.LOGNOTICE)
+    #log_utils.log('### EXODUS REFIX REPOSITORY VERSION: %s ###' % str(RepoVersion), log_utils.LOGNOTICE)
     log_utils.log('###############################################################', log_utils.LOGNOTICE)
 except:
-    log_utils.log('######################### EXODUS REDUX ############################', log_utils.LOGNOTICE)
-    log_utils.log('####### CURRENT EXODUS REDUX VERSIONS REPORT ######################', log_utils.LOGNOTICE)
-    log_utils.log('### ERROR GETTING EXODUS REDUX VERSIONS - NO HELP WILL BE GIVEN AS THIS IS NOT AN OFFICIAL EXODUS REDUX INSTALL. ###', log_utils.LOGNOTICE)
+    log_utils.log('######################### EXODUS REFIX ############################', log_utils.LOGNOTICE)
+    log_utils.log('####### CURRENT EXODUS REFIX VERSIONS REPORT ######################', log_utils.LOGNOTICE)
+    log_utils.log('### ERROR GETTING EXODUS REFIX VERSIONS - NO HELP WILL BE GIVEN AS THIS IS NOT AN OFFICIAL EXODUS REFIX INSTALL. ###', log_utils.LOGNOTICE)
     log_utils.log('###############################################################', log_utils.LOGNOTICE)
 
 if control.setting('autoTraktOnStart') == 'true':

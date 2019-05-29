@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
     <category label="32310">
-        <setting id="appearance.alt" type="action" label="32311" default="-" option="close" action="RunPlugin(plugin://plugin.video.exodusredux/?action=artwork)" visible="!System.HasAddon(script.exodusredux.artwork)" />
-        <setting id="appearance.1" type="select" label="32311" values="Exodus|Covenant|Incursion|Stealth|Exuary" default="Exodus" visible="System.HasAddon(script.exodusredux.artwork)" />
+        <setting id="appearance.alt" type="action" label="32311" default="-" option="close" action="RunPlugin(plugin://plugin.video.exodusrefix/?action=artwork)" visible="!System.HasAddon(script.exodusrefix.artwork)" />
+        <setting id="appearance.1" type="select" label="32311" values="Exodus|Covenant|Incursion|Stealth|Exuary" default="Exodus" visible="System.HasAddon(script.exodusrefix.artwork)" />
         <setting id="api.language" type="select" label="32316" values="AUTO|English|Bulgarian|Chinese|Croatian|Czech|Danish|Dutch|Finnish|French|German|Greek|Hebrew|Hungarian|Italian|Japanese|Korean|Norwegian|Polish|Portuguese|Romanian|Russian|Serbian|Slovak|Slovenian|Spanish|Swedish|Thai|Turkish|Ukrainian" default="English" />
         <setting id="providers.lang" type="select" label="32360" values="English|German|Greek|Polish|Spanish|German+English|Greek+English|Polish+English|Spanish+English" default="English" />
         <setting id="scrapers.timeout.1" type="slider" label="32312" default="30" range="10,60" option="int" />
@@ -73,7 +73,7 @@
         <setting id="torrent.identify" type="enum" label="32634"  enable="eq(-1,true)" lvalues="32589|32590|32591|32592|32593|32594|32595|32596|32597|32598" default="8" />
         <setting id="torrent.min.seeders" type="slider" label="32638" enable="eq(-2,true)" default="10" range="1,100" option="int" />
         <setting id="torrent.sort.them.up" type="bool" label="32639" enable="eq(-3,true)"  default="false" />
-        <setting id="torrent.resolveurl" type="action" label="32637" enable="eq(-4,true)" option="close" action="RunPlugin(plugin://plugin.video.exodusredux/?action=urlResolverRDTorrent&query=1.36)" />
+        <setting id="torrent.resolveurl" type="action" label="32637" enable="eq(-4,true)" option="close" action="RunPlugin(plugin://plugin.video.exodusrefix/?action=urlResolverRDTorrent&query=1.36)" />
         <setting type="lsep" label="32338" />
         <setting id="autoplay.sd" type="bool" label="32340" default="false" />
         <setting id="sources.extrainfo" type="bool" label="32587" default="true" />
@@ -89,7 +89,7 @@
         <setting id="module.provider" type="text" label="Powered by" default="Openscrapers Scrapers" visible="true" enable="false" />
         <setting id="open.settings" type="action" label="Open Scrapers Settings" option="close" action="RunPlugin(plugin://script.module.openscrapers/?mode=OpenscrapersSettings)" />
         <setting type="lsep" label="Clear Providers Cache After Changing Scraper Provider" />
-        <setting id="open.Settings.CacheProviders" type="action" label="Clear Providers Cache" option="close" action="RunPlugin(plugin://plugin.video.exodusredux/?action=clearAllCache)" />
+        <setting id="open.Settings.CacheProviders" type="action" label="Clear Providers Cache" option="close" action="RunPlugin(plugin://plugin.video.exodusrefix/?action=clearAllCache)" />
     </category>
     <category label="32346">
         <setting type="lsep" label="FANART.TV" />
@@ -101,7 +101,7 @@
         <setting id="tm.user" type="text" option="hidden" label="32309" default="3b3eccd1c6bc0f679223fdbd7cf0d06d" />
         <setting type="sep" />
         <setting type="lsep" label="Trakt" />
-        <setting id="trakt.auth" type="action" label="32306" option="close" action="RunPlugin(plugin://plugin.video.exodusredux/?action=authTrakt)" />
+        <setting id="trakt.auth" type="action" label="32306" option="close" action="RunPlugin(plugin://plugin.video.exodusrefix/?action=authTrakt)" />
         <setting id="trakt.token" type="text" visible="false" label="" default="" />
         <setting id="trakt.refresh" type="text" visible="false" label="" default="" />
         <setting id="trakt.user" label="32303" type="text" default="" visible="true" enable="false" />
@@ -113,7 +113,7 @@
         <setting id="tvdb.user" type="text" label="32303" default="" />
         <setting type="lsep" label="32538" />
         <setting type="lsep" label="32539" />
-        <setting id="open_urlResolver_settings" type="action" label="32540" enable="true" option="close" action="RunPlugin(plugin://plugin.video.exodusredux/?action=urlResolver)" />
+        <setting id="open_urlResolver_settings" type="action" label="32540" enable="true" option="close" action="RunPlugin(plugin://plugin.video.exodusrefix/?action=urlResolver)" />
         <setting type="sep" />
         <setting type="lsep" label="Moviesplanet.is" />
         <setting id="moviesplanet.user" type="text" label="32303" default="" />
@@ -157,8 +157,8 @@
         <setting id="furk.limit" label="Limit results" type="slider" default="25" range="5,5,200" option="int" />
     </category>
     <category label="32541">
-        <setting id="library.movie" type="folder" label="32543" default="special://userdata/addon_data/plugin.video.exodusredux/Movies" />
-        <setting id="library.tv" type="folder" label="32544" default="special://userdata/addon_data/plugin.video.exodusredux/TVShows" />
+        <setting id="library.movie" type="folder" label="32543" default="special://userdata/addon_data/plugin.video.exodusrefix/Movies" />
+        <setting id="library.tv" type="folder" label="32544" default="special://userdata/addon_data/plugin.video.exodusrefix/TVShows" />
         <setting type="lsep" label="32542" />
         <setting type="sep" />
         <setting id="library.service.update" type="bool" label="32545" default="true" />

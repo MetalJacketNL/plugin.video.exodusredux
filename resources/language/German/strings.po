@@ -1,5 +1,5 @@
 # Addon Name: Exodus Redux
-# Addon id: plugin.video.exodusredux
+# Addon id: plugin.video.exodusrefix
 # Addon Provider: I-A-C
 # Translators:
 # Translators:
@@ -225,24 +225,24 @@ msgid "[B]SETTINGS[/B] : Providers"
 msgstr "[B]EINSTELLUNGEN[/B] : Indexseiten"
 
 msgctxt "#32048"
-msgid "[B]EXODUS REDUX[/B] : Downloads"
-msgstr "[B]EXODUS REDUX[/B] : Downloads"
+msgid "[B]EXODUS REFIX[/B] : Downloads"
+msgstr "[B]EXODUS REFIX[/B] : Downloads"
 
 msgctxt "#32049"
-msgid "[B]EXODUS REDUX[/B] : Viewtypes"
-msgstr "[B]EXODUS REDUX[/B] : Anzeige-Typen"
+msgid "[B]EXODUS REFIX[/B] : Viewtypes"
+msgstr "[B]EXODUS REFIX[/B] : Anzeige-Typen"
 
 msgctxt "#32050"
-msgid "[B]EXODUS REDUX[/B] : Clear providers..."
-msgstr "[B]EXODUS REDUX[/B] : Indexseiten-Cache leeren..."
+msgid "[B]EXODUS REFIX[/B] : Clear providers..."
+msgstr "[B]EXODUS REFIX[/B] : Indexseiten-Cache leeren..."
 
 msgctxt "#32051"
-msgid "[B]EXODUS REDUX[/B] : Clear metadata..."
-msgstr "[B]EXODUS REDUX[/B] : Metadaten-Cache leeren..."
+msgid "[B]EXODUS REFIX[/B] : Clear metadata..."
+msgstr "[B]EXODUS REFIX[/B] : Metadaten-Cache leeren..."
 
 msgctxt "#32052"
-msgid "[B]EXODUS REDUX[/B] : Clear cache..."
-msgstr "[B]EXODUS REDUX[/B] : Cache leeren..."
+msgid "[B]EXODUS REFIX[/B] : Clear cache..."
+msgstr "[B]EXODUS REFIX[/B] : Cache leeren..."
 
 msgctxt "#32053"
 msgid "[I]Next Page[/I]"
@@ -781,24 +781,24 @@ msgid "Are you sure?"
 msgstr "Sind Sie sicher?"
 
 msgctxt "#32556"
-msgid "[B]EXODUS REDUX[/B] : Library"
-msgstr "[B]EXODUS REDUX[/B] : Bibliothek"
+msgid "[B]EXODUS REFIX[/B] : Library"
+msgstr "[B]EXODUS REFIX[/B] : Bibliothek"
 
 msgctxt "#32557"
 msgid "[B]LIBRARY[/B] : Settings"
 msgstr "[B]BIBLIOTHEK[/B] : Einstellungen"
 
 msgctxt "#32558"
-msgid "[B]EXODUS REDUX[/B] : Update library..."
-msgstr "[B]EXODUS REDUX[/B] : Bibliothek aktualisieren..."
+msgid "[B]EXODUS REFIX[/B] : Update library..."
+msgstr "[B]EXODUS REFIX[/B] : Bibliothek aktualisieren..."
 
 msgctxt "#32559"
-msgid "[B]EXODUS REDUX[/B] : Movie folder..."
-msgstr "[B]EXODUS REDUX[/B] : Film-Ordner..."
+msgid "[B]EXODUS REFIX[/B] : Movie folder..."
+msgstr "[B]EXODUS REFIX[/B] : Film-Ordner..."
 
 msgctxt "#32560"
-msgid "[B]EXODUS REDUX[/B] : TV folder..."
-msgstr "[B]EXODUS REDUX[/B] : Serien-Ordner..."
+msgid "[B]EXODUS REFIX[/B] : TV folder..."
+msgstr "[B]EXODUS REFIX[/B] : Serien-Ordner..."
 
 msgctxt "#32561"
 msgid "[B]TRAKT[/B] : Import Collection..."
@@ -929,8 +929,8 @@ msgid "New search..."
 msgstr "Neue Suche..."
 
 msgctxt "#32604"
-msgid "[B]EXODUS REDUX[/B] : Clear search history..."
-msgstr "[B]EXODUS REDUX[/B]: Suchhistorie löschen ..."
+msgid "[B]EXODUS REFIX[/B] : Clear search history..."
+msgstr "[B]EXODUS REFIX[/B]: Suchhistorie löschen ..."
 
 msgctxt "#32605"
 msgid "Click to clear search history"
@@ -985,12 +985,12 @@ msgid "Movie Time"
 msgstr ""
 
 msgctxt "#32613"
-msgid "[B]EXODUS REDUX[/B] : Clear All Cache..."
-msgid "[B]EXODUS REDUX[/B] : Alle Cache löschen ..."
+msgid "[B]EXODUS REFIX[/B] : Clear All Cache..."
+msgid "[B]EXODUS REFIX[/B] : Alle Cache löschen ..."
 
 msgctxt "#32614"
-msgid "[B]EXODUS REDUX[/B] : Clear Meta Cache..."
-msgstr "[B]EXODUS REDUX[/B] : Meta-Cache löschen ..."
+msgid "[B]EXODUS REFIX[/B] : Clear Meta Cache..."
+msgstr "[B]EXODUS REFIX[/B] : Meta-Cache löschen ..."
 
 msgctxt "#32615"
 msgid "Check Host for Valid URL"
